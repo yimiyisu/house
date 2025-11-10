@@ -1,0 +1,1 @@
+{"name":"car","type":"list","table":"car","where":{"relate":"AND","exprs":[{"operator":0,"column":"parking_id","alias":"parkingId","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id","house_id","create_gmt","update_gmt","model","community_id","parking_id","title"]}

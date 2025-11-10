@@ -1,0 +1,1 @@
+{"name":"house_area","type":"count","table":"house_area","where":{"relate":"AND","exprs":[{"operator":0,"column":"parent_id","alias":"id","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":[]}

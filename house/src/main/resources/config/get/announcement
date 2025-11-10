@@ -1,0 +1,1 @@
+{"name":"announcement","type":"get","table":"announcement","where":{"relate":"AND","exprs":[{"operator":0,"column":"id","alias":"","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id","creator","create_gmt","update_gmt","title","content","type","image"]}

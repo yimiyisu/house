@@ -1,0 +1,1 @@
+{"name":"patrol_log","type":"delete","table":"patrol_log","msg":"操作成功！","where":{"relate":"AND","exprs":[{"operator":0,"column":"community_id","alias":"","from":2,"need":false,"value":"app"},{"operator":0,"column":"id","alias":"","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id"]}

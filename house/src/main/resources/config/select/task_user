@@ -1,0 +1,1 @@
+{"name":"task_user","type":"select","table":"task_user","where":{"relate":"AND","exprs":[{"operator":0,"column":"creator","alias":"","from":1,"need":false,"value":""},{"operator":0,"column":"task_id","alias":"taskId","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id","creator","create_gmt","update_gmt","task_id"]}

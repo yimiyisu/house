@@ -1,0 +1,1 @@
+{"name":"battery_car","type":"list","table":"battery_car","where":{"relate":"AND","exprs":[{"operator":7,"column":"owner","alias":"landlordIds","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id","title","owner","emergency","phone"]}
