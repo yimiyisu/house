@@ -1,1 +1,0 @@
-{"name":"car","type":"select","table":"car","where":{"relate":"AND","exprs":[{"operator":0,"column":"house_id","alias":"houseId","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["model","parking_id","community_id","id","house_id","title"]}

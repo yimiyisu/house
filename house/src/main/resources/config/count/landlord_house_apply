@@ -1,1 +1,0 @@
-{"name":"landlord_house_apply","type":"count","table":"landlord_house","where":{"relate":"AND","exprs":[{"operator":0,"column":"house_id","alias":"","from":1,"need":false,"value":""},{"operator":0,"column":"landlord_id","alias":"","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":[]}

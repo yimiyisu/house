@@ -1,1 +1,0 @@
-{"name":"patrol_points","type":"count","table":"patrol_points","where":{"relate":"AND","exprs":[{"operator":0,"column":"route_id","alias":"","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id"]}

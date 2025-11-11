@@ -1,1 +1,0 @@
-{"name":"fee_plain","type":"select","table":"fee_plain","where":{"relate":"AND","exprs":[{"operator":0,"column":"community_id","alias":"","from":2,"need":false,"value":"app"}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id","creator","create_gmt","update_gmt","title","community_id","constant","status","starttime","type","configs"]}

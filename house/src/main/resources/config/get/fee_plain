@@ -1,1 +1,0 @@
-{"name":"fee_plain","type":"get","table":"fee_plain","where":{"relate":"AND","exprs":[{"operator":0,"column":"id","alias":"","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["configs","type","starttime","title","create_gmt","update_gmt","creator","status","constant"]}

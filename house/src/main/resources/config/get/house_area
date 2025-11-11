@@ -1,1 +1,0 @@
-{"name":"house_area","type":"get","table":"house_area","where":{"relate":"AND","exprs":[{"operator":0,"column":"id","alias":"","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id","create_gmt","update_gmt","community_id","title","parent_id","is_leaf","is_commercial"]}
