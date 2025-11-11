@@ -1,0 +1,64 @@
+2025-11-11 13:37:35.635 [main] ERROR com.zen.kit.IOKit - config/tables文件不存在
+2025-11-11 13:40:30.820 [ZenCore:Thread-0] ERROR zx.X - 500
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.d" is null
+	at zx.ap.b(Unknown Source)
+	at zx.br.f(Unknown Source)
+	at com.zen.kit.UserKit.getByToken(Unknown Source)
+	at com.zen.ZenData.getUser(Unknown Source)
+	at zx.bn.a(Unknown Source)
+	at com.zen.ZenController.$check(Unknown Source)
+	at zx.ao.$excute(Unknown Source)
+	at zx.X.handle(Unknown Source)
+	at zx.aH.a(Unknown Source)
+	at zx.aS.b(Unknown Source)
+	at zx.aB.a(Unknown Source)
+	at zx.cj.d(Unknown Source)
+	at zx.cj.b(Unknown Source)
+	at zx.cj$1.completed(Unknown Source)
+	at zx.cd.a(Unknown Source)
+	at zx.bZ.d(Unknown Source)
+	at zx.ca.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-11 13:41:50.772 [main] ERROR com.zen.kit.IOKit - config/tables文件不存在
+2025-11-11 13:42:19.581 [main] ERROR com.zen.kit.IOKit - config/tables文件不存在
+2025-11-11 13:43:35.126 [main] ERROR com.zen.kit.IOKit - config/tables文件不存在
+2025-11-11 13:43:46.716 [ZenCore:Thread-3] ERROR com.zen.kit.IOKit - config/menus文件不存在
+2025-11-11 13:43:46.720 [ZenCore:Thread-3] ERROR zx.X - 500
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonArray.forEach(java.util.function.Consumer)" because "<local0>" is null
+	at com.zen.kit.JsonKit.parseAsList(Unknown Source)
+	at zx.ao.a(Unknown Source)
+	at zx.ao.$excute(Unknown Source)
+	at zx.X.handle(Unknown Source)
+	at zx.aH.a(Unknown Source)
+	at zx.aS.b(Unknown Source)
+	at zx.aB.a(Unknown Source)
+	at zx.cj.d(Unknown Source)
+	at zx.cj.b(Unknown Source)
+	at zx.cj$1.completed(Unknown Source)
+	at zx.cd.a(Unknown Source)
+	at zx.bZ.d(Unknown Source)
+	at zx.ca.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-11 13:44:09.029 [ZenCore:Thread-4] ERROR com.zen.kit.IOKit - config/menus文件不存在
+2025-11-11 13:44:09.031 [ZenCore:Thread-4] ERROR zx.X - 500
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonArray.forEach(java.util.function.Consumer)" because "<local0>" is null
+	at com.zen.kit.JsonKit.parseAsList(Unknown Source)
+	at zx.ao.a(Unknown Source)
+	at zx.ao.$excute(Unknown Source)
+	at zx.X.handle(Unknown Source)
+	at zx.aH.a(Unknown Source)
+	at zx.aS.b(Unknown Source)
+	at zx.aB.a(Unknown Source)
+	at zx.cj.d(Unknown Source)
+	at zx.cj.b(Unknown Source)
+	at zx.cj$1.completed(Unknown Source)
+	at zx.cd.a(Unknown Source)
+	at zx.bZ.d(Unknown Source)
+	at zx.ca.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
