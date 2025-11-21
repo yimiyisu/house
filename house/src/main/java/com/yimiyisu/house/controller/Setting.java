@@ -20,10 +20,7 @@ public class Setting extends ZenController {
     // 设置类型
     public ZenResult setType(ZenData data) {
         String active = data.get("active"); // 类型
-        data = data.remove("active");
-        Map parse = data.parse(Map.class);
-        String types = JsonKit.stringify(parse.get("types"));
-        ConfigKit.self(PREFIX + active + TYPE_BASIC, types);
+        ConfigKit.self(PREFIX + active + TYPE_BASIC, data.getOrigin());
         return ZenResult.success("设置成功");
     }
 
