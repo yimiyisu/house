@@ -1,0 +1,1 @@
+{"name":"bills","type":"count","table":"bills","where":{"relate":"AND","exprs":[{"operator":0,"column":"house_id","alias":"houseId","from":1,"need":false,"value":""},{"operator":0,"column":"status","alias":"","from":1,"need":false,"value":"2"}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id"]}

@@ -1,0 +1,1 @@
+{"name":"online_apply_agree","type":"patch","table":"online_apply","msg":"操作成功！","where":{"relate":"AND","exprs":[{"operator":0,"column":"id","alias":"","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[{"name":"update_gmt","value":"current","from":2},{"name":"status","value":"2","from":2}],"outputs":[]}

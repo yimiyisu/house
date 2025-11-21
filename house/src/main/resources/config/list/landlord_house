@@ -1,0 +1,1 @@
+{"name":"landlord_house","type":"list","table":"landlord_house","where":{"relate":"AND","exprs":[{"operator":0,"column":"house_id","alias":"houseId","from":1,"need":false,"value":""}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["id","create_gmt","update_gmt","landlord_id","house_id","house_type","commrece_type","is_owner"]}

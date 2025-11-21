@@ -1,0 +1,1 @@
+{"name":"latestCommunityManager","type":"get","table":"community_manager","where":{"relate":"AND","exprs":[{"operator":0,"column":"uid","alias":"","from":2,"need":false,"value":"uid"}],"operator":0,"from":0,"need":false},"role":2,"params":[],"outputs":["community_id"],"order":{"name":"update_gmt","type":-1}}
