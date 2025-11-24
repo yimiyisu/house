@@ -21,8 +21,8 @@ export default {
       return (
         <>
           <z-action p='s1tysgt3' label='编辑' mode='dialog' fields={["starttime",{"name":"configs","slot":"feeConfig"}]} link data={row} url='/do/patch/fee_plain' />
-<z-action p='brucbsv8' label={row.status == 1?'停用':null} mode='confirm' link data={row} url='/api/fee/updateFeeStatus' />
-<z-action p='k8y12bir' label={row.status == 0?'启用':null} mode='confirm' link data={row} url='/api/fee/updateFeeStatus' />
+<z-action p='brucbsv8' label={row.status == 1?'停用':null} mode='confirm' link data={row} url='/do/patch/fee_plain_disabled' />
+<z-action p='k8y12bir' label={row.status == 0?'启用':null} mode='confirm' link data={row} url='/do/patch/fee_plain_enable' />
 <z-action p='gxyusnvl' label={row.status == 0?'删除':null} mode='confirm' link data={row} url='/do/delete/fee_plain' />
         </>
       )

@@ -13,6 +13,7 @@ import DailyHouseLandlord from "./houseLandlord/houseLandlord";
 import DailyHouselist from "./houselist/houselist";
 import DailyHouseRent from "./houseRent/houseRent";
 import DailyOnlineApply from "./onlineApply/onlineApply";
+import DailyOnlineDetail from "./onlineDetail/onlineDetail";
 import DailyPayment from "./payment/payment";
 import DailyPet from "./pet/pet";
 import DailyPetLog from "./petLog/petLog";
@@ -35,6 +36,7 @@ export default {
 	'daily/houselist': DailyHouselist,
 	'daily/houseRent': DailyHouseRent,
 	'daily/onlineApply': DailyOnlineApply,
+	'daily/onlineDetail': DailyOnlineDetail,
 	'daily/payment': DailyPayment,
 	'daily/pet': DailyPet,
 	'daily/petLog': DailyPetLog,

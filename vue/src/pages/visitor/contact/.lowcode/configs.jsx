@@ -10,7 +10,13 @@ export default {
   columns: ["title","telephone","licensePlate","creator","createGmt"],
   condition: ["title","telephone","licensePlate"],
   slots: {
-    
+    action$({ row }) {
+      return (
+        <>
+          <z-action p='3nq86akq' label='删除' mode='confirm' link data={row} url='/do/delete/visitor_cont' />
+        </>
+      )
+    }
   }
 }
   

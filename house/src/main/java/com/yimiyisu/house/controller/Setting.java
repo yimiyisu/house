@@ -7,9 +7,6 @@ import com.zen.ZenResult;
 import com.zen.annotation.AccessRole;
 import com.zen.enums.ZenRole;
 import com.zen.kit.ConfigKit;
-import com.zen.kit.JsonKit;
-
-import java.util.Map;
 
 @AccessRole(ZenRole.SIGNATURE)
 public class Setting extends ZenController {
@@ -20,6 +17,7 @@ public class Setting extends ZenController {
     // 设置类型
     public ZenResult setType(ZenData data) {
         String active = data.get("active"); // 类型
+        data = data.remove("active");
         ConfigKit.self(PREFIX + active + TYPE_BASIC, data.getOrigin());
         return ZenResult.success("设置成功");
     }

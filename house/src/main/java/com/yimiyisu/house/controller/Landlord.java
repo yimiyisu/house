@@ -26,8 +26,8 @@ public class Landlord extends ZenController {
     private LandlordService landlordService;
 
     public ZenResult landlord(ZenData data) {
-        ZenResult execute = zenEngine.execute("get/landlord_house", data);
-        String landlordId = execute.get("landlordId");
+        ZenResult result = zenEngine.execute("get/landlord_house", data);
+        String landlordId = result.get("landlordId");
         if (landlordId == null) {
             return ZenResult.success();
         }

@@ -8,7 +8,7 @@ export default {
   title: "巡检人员",
   entitys: [{"name":"creator","label":"巡检人","type":"user"},{"name":"createGmt","label":"创建时间","type":"date"},{"name":"updateGmt","label":"更新时间","type":"date"},{"name":"taskId","label":"巡检任务","type":"search","depend":"patrol_task"},{"name":"id","label":"编号","type":"search"}],
   columns: ["creator","createGmt","updateGmt","taskId"],
-  condition: ["creator"],
+  condition: [],
   slots: {
       header$() {
       return (

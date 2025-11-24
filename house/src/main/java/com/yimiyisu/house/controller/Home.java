@@ -48,13 +48,6 @@ public class Home extends ZenController {
     }
 
 
-//    // 手动删除用户mate中的houseApply
-//    public ZenResult test(ZenData data) {
-//        String uid = "68522314b101054be3d82cee";
-//        UserKit.removeMeta(uid, "houseApply");
-//        return ZenResult.success();
-//    }
-
     // 生成物业人员入职链接
     public ZenResult makeLink(ZenData data) {
         String title = "入职申请";

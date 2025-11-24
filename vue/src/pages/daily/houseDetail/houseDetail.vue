@@ -1,19 +1,19 @@
 <template>
     <el-descriptions title="住宅明细">
-        <el-descriptions-item label="房屋编号">{{
-            params.houseId
-        }}</el-descriptions-item>
+        <el-descriptions-item label="房屋编号">
+            {{ params.houseId }}
+        </el-descriptions-item>
         <el-descriptions-item label="状态">
             自主
             <el-tag @click="toLack" v-if="arrearsCount > 0" type="danger" effect="dark"> 有欠费 </el-tag>
         </el-descriptions-item>
-        <el-descriptions-item label="业主">{{
-            !landlord ? "暂无" : landlord.title
-        }}</el-descriptions-item>
+        <el-descriptions-item label="业主">
+            {{ !landlord ? "暂无" : landlord.title }}
+        </el-descriptions-item>
         <el-descriptions-item label="联系手机号">
-            <el-tag size="small">{{
-                !landlord ? "暂无" : landlord.telephone
-            }}</el-tag>
+            <el-tag size="small">
+                {{ !landlord ? "暂无" : landlord.telephone }}
+            </el-tag>
         </el-descriptions-item>
 
         <el-descriptions-item label="水表">

@@ -64,14 +64,6 @@ public class Fee extends ZenController {
         return ZenResult.success();
     }
 
-    // 修改费率配置状态
-    public ZenResult updateFeeStatus(ZenData data) {
-        String status = StringKit.equals(data.get("status"), "0") ? "1" : "0";
-        zenEngine.execute("patch/fee_plain", ZenData.create("id", data.get("id"))
-                .put("status", status));
-        return ZenResult.success("修改成功");
-    }
-
     // 新增车位缴费记录
     public ZenResult addParkingFee(ZenData data) {
         int month = Integer.valueOf(data.get("month")); // 租赁时长(月)
