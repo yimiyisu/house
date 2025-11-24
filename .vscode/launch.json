@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Application",
+      "request": "launch",
+      "mainClass": "com.yimiyisu.house.Application",
+      "projectName": "house"
+    },
+    {
+      "type": "node-terminal",
+      "name": "vue",
+      "request": "launch",
+      "command": "npm run start",
+      "cwd": "${workspaceFolder}/vue"
+    }
+  ]
+}

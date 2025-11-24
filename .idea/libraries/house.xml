@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="house">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/release/house.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
